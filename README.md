@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width="90" alt="React">
-  &nbsp;&nbsp;
-  <img src="https://nodejs.org/static/images/logo.svg" width="130" alt="Node.js">
-  &nbsp;&nbsp;
-  <img src="https://cdn.worldvectorlogo.com/logos/prisma-2.svg" width="110" alt="Prisma">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" height="60" alt="React" align="middle">
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://nodejs.org/static/images/logo.svg" height="60" alt="Node.js" align="middle">
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/prisma-2.svg" height="60" alt="Prisma" align="middle">
 </p>
 
 # 🛒 E-Commerce Platform (TFG)
