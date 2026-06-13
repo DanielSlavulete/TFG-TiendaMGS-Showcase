@@ -19,7 +19,7 @@ La aplicación está construida con **React en el frontend**, **Node.js + Expres
 
 Este proyecto fue desarrollado en equipo como Trabajo de Final de Grado.
 
-👉 https://github.com/USUARIO/REPO-ORIGINAL
+👉 https://github.com/Gioser-94/tienda-mgs
 
 ---
 
