@@ -15,6 +15,14 @@ La aplicación está construida con **React en el frontend**, **Node.js + Expres
 
 ---
 
+## 🔗 Repositorio original para ver el proyecto
+
+Este proyecto fue desarrollado en equipo como Trabajo de Final de Grado.
+
+👉 https://github.com/USUARIO/REPO-ORIGINAL
+
+---
+
 ## 🔗 Project Overview
 
 La plataforma permite a los usuarios navegar libremente por un catálogo de productos electrónicos, visualizar detalles completos (incluyendo contenido multimedia como imágenes y vídeos) y realizar compras simuladas sin pasarela de pago real.
