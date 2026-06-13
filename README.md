@@ -15,7 +15,7 @@ La aplicación está construida con **React en el frontend**, **Node.js + Expres
 
 ---
 
-## 🔗 Repositorio original para ver el proyecto
+## 🔗 Repositorio original del proyecto
 
 Este proyecto fue desarrollado en equipo como Trabajo de Final de Grado.
 
@@ -23,7 +23,7 @@ Este proyecto fue desarrollado en equipo como Trabajo de Final de Grado.
 
 ---
 
-## 🔗 Project Overview
+## 🔎 Descripción general del proyecto
 
 La plataforma permite a los usuarios navegar libremente por un catálogo de productos electrónicos, visualizar detalles completos (incluyendo contenido multimedia como imágenes y vídeos) y realizar compras simuladas sin pasarela de pago real.
 
@@ -31,7 +31,7 @@ El sistema implementa autenticación, control de acceso por roles y rutas proteg
 
 ---
 
-## 👤 User Roles
+## 👤 Roles de usuario
 
 ### 🧑 Cliente
 - Registro e inicio de sesión
@@ -54,7 +54,7 @@ El sistema implementa autenticación, control de acceso por roles y rutas proteg
 
 ---
 
-## 🌐 Routing System
+## 🌐 Sistema de rutas
 
 La aplicación se estructura en tres niveles de rutas:
 
@@ -66,15 +66,15 @@ La aplicación se estructura en tres niveles de rutas:
 ### 🔐 Rutas protegidas
 - Requieren autenticación mediante JWT
 - Verificación de sesión activa
-- Acceso a carrito y acceso a perfil
+- Acceso a carrito y perfil de usuario
 
 ### 🔴 Rutas de administrador
-- Requieren autenticación + rol admin
+- Requieren autenticación + rol de administrador
 - Acceso exclusivo al panel de gestión
 
 ---
 
-## ⚙️ Tech Stack
+## ⚙️ Tecnologías utilizadas
 
 ### Frontend
 - React
@@ -91,13 +91,13 @@ La aplicación se estructura en tres niveles de rutas:
   - Controllers
   - Middlewares
 
-### Database
+### Base de datos
 - PostgreSQL
 - Supabase
 
 ---
 
-## 🔐 Authentication & Security
+## 🔐 Autenticación y seguridad
 
 El sistema de autenticación está basado en **JSON Web Tokens (JWT)** almacenados en **cookies HTTP-only**, lo que mejora la seguridad al evitar el acceso directo desde JavaScript del cliente.
 
@@ -105,28 +105,28 @@ Se han implementado medidas avanzadas de seguridad:
 
 - Autenticación mediante JWT
 - Uso de cookies HTTP-only, Secure y SameSite
-- Protección frente a ataques **XSS (Cross-Site Scripting)** mediante uso de cookies HTTP-only, evitando acceso al token desde JavaScript.
-- Mitigación de ataques **CSRF (Cross-Site Request Forgery)** mediante configuración de cookies (`SameSite`, `Secure`) y CORS controlado.
-- Configuración controlada de **CORS**
+- Protección frente a ataques **XSS (Cross-Site Scripting)** mediante uso de cookies HTTP-only, evitando acceso al token desde JavaScript
+- Mitigación de ataques **CSRF (Cross-Site Request Forgery)** mediante configuración de cookies (`SameSite`, `Secure`) y CORS controlado
+- Configuración controlada de CORS
 - Middleware de verificación de tokens en backend
-- Control de acceso basado en roles (User / Admin)
+- Control de acceso basado en roles (Usuario / Administrador)
 - Protección de rutas privadas y administrativas
 
 ---
 
-## 🧱 Backend Architecture
+## 🧱 Arquitectura del backend
 
 El backend sigue una arquitectura estructurada y modular:
 
-- **Routes** → Definición de endpoints
-- **Controllers** → Gestión de la petición y respuesta
-- **Services** → Lógica de negocio
+- **Rutas** → Definición de endpoints
+- **Controladores** → Gestión de la petición y respuesta
+- **Servicios** → Lógica de negocio
 - **Middlewares** → Autenticación y autorización
-- **Prisma ORM** → Abstracción de acceso a datos, evitando queries SQL directas y reduciendo el riesgo de inyecciones SQL.
+- **Prisma ORM** → Abstracción de acceso a datos, evitando queries SQL directas y reduciendo el riesgo de inyecciones SQL
 
 ---
 
-## 🛍️ Main Features
+## 🛍️ Funcionalidades principales
 
 - Catálogo de productos estilo e-commerce real
 - Visualización detallada de productos
@@ -140,11 +140,11 @@ El backend sigue una arquitectura estructurada y modular:
 
 ---
 
-## 🎓 Academic Project
+## 🎓 Proyecto académico
 
 Este proyecto fue desarrollado como **Trabajo de Final de Grado (DAW)**.
 
-El objetivo principal fue simular una aplicación e-commerce real aplicando una arquitectura full stack moderna, separando claramente frontend y backend, e implementando funcionalidades avanzadas como autenticación, control de roles y gestión de datos.
+El objetivo principal fue simular una aplicación e-commerce real aplicando una arquitectura full stack moderna, separando claramente frontend y backend e implementando funcionalidades avanzadas como autenticación, control de roles y gestión de datos.
 
 Durante su desarrollo se trabajaron conceptos como:
 
@@ -152,7 +152,7 @@ Durante su desarrollo se trabajaron conceptos como:
 - APIs REST
 - Autenticación y autorización con JWT
 - Seguridad web (XSS, CSRF, CORS)
-- Se utilizó Prisma ORM como capa de acceso a datos, lo que permitió trabajar con una abstracción segura sobre la base de datos, evitando queries SQL directas y reduciendo vulnerabilidades como SQL Injection.
+- Se utilizó Prisma ORM como capa de acceso a datos, lo que permitió trabajar con una abstracción segura sobre la base de datos, evitando queries SQL directas y reduciendo vulnerabilidades como SQL Injection
 - Gestión de bases de datos relacionales
 - Desarrollo de SPA con React
 - Diseño de backend escalable con Node.js
@@ -160,6 +160,6 @@ Durante su desarrollo se trabajaron conceptos como:
 
 ---
 
-## ⚠️ Disclaimer
+## ⚠️ Aviso
 
-Este proyecto es únicamente académico y de demostración y la funcionalidad de compra es simulada y no se procesan pagos reales.
+Este proyecto es únicamente académico y de demostración. La funcionalidad de compra es simulada y no se procesan pagos reales.
